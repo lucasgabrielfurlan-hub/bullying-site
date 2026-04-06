@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tipos de Bullying: Entenda, Previna e Aja</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
         
         :root {
             --primary: #e63939;
@@ -13,11 +13,7 @@
             --light: #f8f9fa;
         }
         
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         
         body {
             font-family: 'Poppins', sans-serif;
@@ -40,17 +36,13 @@
             padding: 0 20px;
         }
         
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        h2 {
-            font-size: 2.2rem;
-            color: var(--dark);
-            margin: 2rem 0 1rem;
-            border-bottom: 4px solid var(--primary);
-            padding-bottom: 10px;
+        h1 { font-size: 3rem; margin-bottom: 0.5rem; }
+        h2 { 
+            font-size: 2.2rem; 
+            color: var(--dark); 
+            margin: 2rem 0 1rem; 
+            border-bottom: 4px solid var(--primary); 
+            padding-bottom: 10px; 
         }
         
         .nav {
@@ -120,6 +112,30 @@
             border-radius: 20px;
         }
         
+        .fontes-box {
+            background: #f1f1f1;
+            padding: 2rem;
+            border-radius: 15px;
+            border: 2px solid #ddd;
+            margin: 2rem 0;
+        }
+        
+        .fontes-box h3 {
+            color: #1d3557;
+            margin-bottom: 1rem;
+        }
+        
+        .fontes-box p, .fontes-box li {
+            color: #000000;           /* ← Palavras em preto */
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+        
+        .fontes-box a {
+            color: #0066cc;
+            text-decoration: underline;
+        }
+        
         footer {
             background: var(--dark);
             color: white;
@@ -128,17 +144,7 @@
             margin-top: 4rem;
         }
         
-        .fontes {
-            background: #f1f1f1;
-            padding: 1.5rem;
-            border-radius: 12px;
-            font-size: 0.95rem;
-        }
-        
-        .emoji {
-            font-size: 2.5rem;
-            margin-right: 15px;
-        }
+        .emoji { font-size: 2.5rem; margin-right: 15px; }
         
         @media (max-width: 768px) {
             h1 { font-size: 2.2rem; }
@@ -256,13 +262,33 @@
                      2. Realizar palestras e oficinas com psicólogos<br>
                      3. Criar canal anônimo de denúncia na escola<br>
                      4. Ensinar Educação Emocional desde cedo<br>
-                     5. Denunciar cyberbullying às plataformas (Instagram, TikTok, etc.) e à Polícia</p>
+                     5. Denunciar cyberbullying às plataformas e à Polícia</p>
                 </div>
             </div>
             
             <p style="text-align: center; margin-top: 2.5rem; font-size: 1.3rem; font-weight: 600;">
                 Lembre-se: <strong>O silêncio alimenta o bullying. A denúncia acaba com ele.</strong>
             </p>
+        </section>
+
+        <!-- Caixa de Fontes com texto preto -->
+        <section id="fontes" class="section">
+            <div class="fontes-box">
+                <h3>📚 Fontes das Informações</h3>
+                <p>Todo o conteúdo deste site foi elaborado com base em fontes oficiais e confiáveis:</p>
+                <ul style="padding-left: 25px; margin-top: 15px;">
+                    <li>Brasil Escola – “Bullying: o que é, consequências, na escola” (classificação oficial dos tipos segundo a Lei 13.185)</li>
+                    <li>UNICEF Brasil – “Cyberbullying: O que é e como pará-lo”</li>
+                    <li>Ministério da Educação – Documentos sobre convivência escolar e bullying</li>
+                    <li>Associação Brasileira Multiprofissional de Proteção à Infância e Adolescência (ABRAPIA)</li>
+                    <li>Lei Federal nº 13.185, de 6 de novembro de 2015 (Programa de Combate à Intimidação Sistemática)</li>
+                    <li>StopBullying.gov e pesquisas científicas internacionais sobre os tipos de bullying</li>
+                </ul>
+                <p style="margin-top: 20px; font-size: 0.95rem;">
+                    Este site foi criado por Grok (xAI) especialmente para você. 
+                    Copie todo o código e salve como <strong>site-bullying.html</strong> para usar offline ou publicar onde quiser.
+                </p>
+            </div>
         </section>
 
     </div>
@@ -272,27 +298,11 @@
             <h2 style="color: #a8dadc;">Você não está sozinho(a) 💪</h2>
             <p>Se você ou alguém que você conhece está sofrendo bullying, procure ajuda agora.</p>
             <p style="margin: 20px 0;"><strong>Disque 100 • Ligue 180 • Delegacia da Criança</strong></p>
-            
-            <div class="fontes" style="margin: 30px auto; max-width: 800px;">
-                <h3 style="color: var(--primary); margin-bottom: 15px;">Fontes das Informações</h3>
-                <p>Todo o conteúdo deste site foi elaborado com base em fontes oficiais e confiáveis:</p>
-                <ul style="text-align: left; margin: 15px 0; padding-left: 20px; line-height: 1.8;">
-                    <li>Brasil Escola – “Bullying: o que é, consequências, na escola” (classificação oficial dos tipos segundo a Lei 13.185) → <a href="https://brasilescola.uol.com.br/sociologia/bullying.htm" target="_blank" style="color: #457b9d;">Link</a></li>
-                    <li>UNICEF Brasil – “Cyberbullying: O que é e como pará-lo” → <a href="https://www.unicef.org/brazil/cyberbullying-o-que-eh-e-como-para-lo" target="_blank" style="color: #457b9d;">Link</a></li>
-                    <li>Ministério da Educação – Documentos sobre convivência escolar e bullying</li>
-                    <li>Associação Brasileira Multiprofissional de Proteção à Infância e Adolescência (ABRAPIA)</li>
-                    <li>Lei Federal nº 13.185, de 6 de novembro de 2015 (Programa de Combate à Intimidação Sistemática)</li>
-                    <li>StopBullying.gov e pesquisas científicas internacionais sobre os tipos de bullying</li>
-                </ul>
-                <p style="font-size: 0.9rem; margin-top: 15px;">Este site foi criado por Grok (xAI) especialmente para você. Copie todo o código acima e salve como <strong>site-bullying.html</strong> para usar offline ou publicar onde quiser.</p>
-            </div>
-            
             <p style="margin-top: 30px; font-size: 0.9rem; opacity: 0.8;">© 2026 – Informações baseadas em pesquisas atualizadas. Compartilhe para ajudar mais pessoas!</p>
         </div>
     </footer>
 
     <script>
-        // Scroll suave para os links da navegação
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -300,8 +310,6 @@
                 target.scrollIntoView({ behavior: 'smooth' });
             });
         });
-        
-        console.log('%c✅ Site de Bullying criado com sucesso!', 'color:#e63939; font-size:16px; font-weight:bold');
     </script>
 </body>
 </html>
